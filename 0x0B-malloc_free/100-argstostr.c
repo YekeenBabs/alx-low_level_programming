@@ -1,5 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
+#include "myheader.h"
+
+/** 
+ *Function declaration
+*/
+char *concatenate_arguments(char **av);
 
 /**
  * concatenate_arguments - Concatenate all the arguments.
@@ -41,4 +47,3 @@ char *concatenate_arguments(char **av)
 	concatenated[k - 1] = '\0'; /* Null-terminate the final string */
 	return (concatenated);
 }
-
